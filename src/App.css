@@ -1,38 +1,162 @@
-.App {
+.container-fluid{
+  max-width: 900px;
+  height:500px;
+  margin: auto;
+  padding-top: 50px;
+  left: 30%;
+}
+.mycard{
+  position: relative;
+  background: white;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.row{
+  height: 100%;
+}
+.leftdiv{
+  background-color:rgb(207, 233, 248);
+  border-radius:10px;
+  height: 100%;
+}
+.para1{
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.image{
+  padding-top:none;
+
+}
+.leftdiv2{
+  padding-bottom: 50px;
+  
+}
+.para2{
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.para3{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.rightdiv{
+
+  height: 100%;
+}
+.rightdiv1{
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signin{
+  border: none;
+  background-color: white;
+  padding-left: 20px;
+  color: blue;
+}
+.para4{
+text-align: center;
+padding-top: 25px;
+font-size: 25px;
+font-weight: bold;
+color: rgb(79, 106, 156);
+}
+.rightdiv2{
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.landroad{
+  
+  background-color:rgb(135, 232, 235);
+  color:rgb(23, 177, 238);
+  border-radius: 3px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border:none;
+}
+.span1{
+  padding-left: 10px;
+}
+.rightdiv3{
+  text-align: center;
+  padding-top:30px;
+}
+.google{
+background-color:rgb(226, 83, 83);;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 35px;
+padding-right: 35px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border:none;
+border-radius: 5px;
+box-shadow: 0px 10px 40px -10px;
+}
+.span3{
+padding-right:20px;
+}
+.facebook{
+  background-color:rgb(83, 95, 138);
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border:none;
+border-radius: 5px;
+box-shadow: 0px 10px 40px -10px;
+}
+.rightdiv4{
+  padding-top:40px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rightdiv5{
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para10{
+  padding-right:220px;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.para11{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:10px;
+  font-size: 15px;
+}
+.input{
+  background-color: white;
+  border:1px solid black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.button6{
+  background-color:blue;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius:5px;
+  border: none;
+  
 }
