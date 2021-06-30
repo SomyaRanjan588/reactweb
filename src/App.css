@@ -1,162 +1,227 @@
-.container-fluid{
-  max-width: 900px;
-  height:500px;
-  margin: auto;
-  padding-top: 50px;
-  left: 30%;
+.container-flui {
+  background-color: #bdbdbd;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  height: 1000px;
+  max-width: 1300px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
-.mycard{
-  position: relative;
-  background: white;
-  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.3);
+.card {
+  max-width: 1200px;
+  height: 900px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: none;
   border-radius: 10px;
 }
-.row{
-  height: 100%;
+.div1 {
+  text-align: center;
+  padding-top: 50px;
 }
-.leftdiv{
-  background-color:rgb(207, 233, 248);
-  border-radius:10px;
-  height: 100%;
+.para1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.para1{
-  text-align: left;
+.para2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b3b6b7;
+  font-weight: bold;
+}
+.mycard {
+  padding-top: 10px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 670px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.left {
+  background-color: #6741b6;
+  height: 650px;
   padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  margin-bottom: px;
+}
+.para3 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para4 {
+  color: white;
+  font-family: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div3 {
+  padding-top: 45px;
+  margin-left: 25px;
+  color: white;
+}
+.div4 {
+  padding-top: 45px;
+  margin-left: 25px;
+  color: white;
+}
+.div5 {
+  padding-top: 45px;
+  margin-left: 25px;
+  color: white;
+}
+.span1 {
+  padding-right: 25px;
+  font-weight: bold;
+  color: #fb82f3;
+  font-size: 20px;
+}
+.span2 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.span3 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.span4 {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div6 {
+  color: white;
+  padding-top: 150px;
+  padding-left: 40px;
+}
+.span5 {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+.span6 {
+  padding-right: 40px;
+}
+.span7 {
+  padding-right: 40px;
+}
+.span8 {
+  padding-right: 40px;
+}
+.right {
+  background-color: white;
+  border: none;
+  border-radius: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+  box-shadow: none;
+  padding-top: 10px;
+  margin-top: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: none;
+  margin-left: none;
+}
+
+.input2 {
+  width: 95%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #bdbdbd;
+  padding-bottom: 15px;
+  background-color: white;
+}
+.input-group2 {
   padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-group3 {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-group10 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.input-group4 {
+  padding-top: 10px;
+}
+.input {
+  width: 90%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #bdbdbd;
+  padding-bottom: 15px;
+  background-color: white;
+}
+.label1 {
+  padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
-
 }
-.image{
-  padding-top:none;
-
-}
-.leftdiv2{
-  padding-bottom: 50px;
-  
-}
-.para2{
-  font-size:20px;
+.div7 {
+  padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox1 {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 5px;
+}
+.checklabel {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+textarea {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.message {
+  margin-top: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
-.para3{
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+.write {
+  padding-top: 1px;
+  color: #bdbdbd;
 }
-.rightdiv{
-
-  height: 100%;
-}
-.rightdiv1{
-  text-align: right;
-  padding-right: 15px;
-  padding-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.signin{
+.submit1 {
+  color: white;
+  background-color: #6741b6;
+  border-radius: 7px;
   border: none;
-  background-color: white;
-  padding-left: 20px;
-  color: blue;
-}
-.para4{
-text-align: center;
-padding-top: 25px;
-font-size: 25px;
-font-weight: bold;
-color: rgb(79, 106, 156);
-}
-.rightdiv2{
-  text-align: center;
-  padding-top: 10px;
+  outline: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
-.landroad{
-  
-  background-color:rgb(135, 232, 235);
-  color:rgb(23, 177, 238);
-  border-radius: 3px;
-  padding-top:5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border:none;
+.submit2 {
+  text-align: right;
 }
-.span1{
-  padding-left: 10px;
-}
-.rightdiv3{
-  text-align: center;
-  padding-top:30px;
-}
-.google{
-background-color:rgb(226, 83, 83);;
-padding-top:10px;
-padding-bottom: 10px;
-padding-left: 35px;
-padding-right: 35px;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-border:none;
-border-radius: 5px;
-box-shadow: 0px 10px 40px -10px;
-}
-.span3{
-padding-right:20px;
-}
-.facebook{
-  background-color:rgb(83, 95, 138);
-padding-top:10px;
-padding-bottom: 10px;
-padding-left: 30px;
-padding-right: 30px;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-border:none;
-border-radius: 5px;
-box-shadow: 0px 10px 40px -10px;
-}
-.rightdiv4{
-  padding-top:40px;
-  text-align: center;
-}
-.rightdiv5{
-  padding-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-.para10{
-  padding-right:220px;
-  text-align: center;
-}
-.para11{
+.error {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top:10px;
-  font-size: 15px;
-}
-.input{
-  background-color: white;
-  border:1px solid black;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 5px;
-}
-.button6{
-  background-color:blue;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 75px;
-  padding-right: 75px;
-  border-radius:5px;
-  border: none;
-  
 }

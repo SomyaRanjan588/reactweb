@@ -24,8 +24,9 @@ import './App.css';
          return(
              <div>
                   <p className="para10">Email</p>
-                
+                 
                  <input type="text" name="mail" className="input" placeholder="johndoe@email.com" onChange={(e)=>{this.setState({mail:e.target.value})}}></input><br></br>
+                 
                  <p className="para11" >{this.state.mailerror}</p>
                 
                  <br></br>
