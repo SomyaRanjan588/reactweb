@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       <div className="card">
         <div className="div1">
-          <p className="para1">Contact Us</p>
+          <p className="para20">Contact Us</p>
           <p className="para2">
             Any question or remarks? just write us a message!
           </p>
@@ -17,8 +17,8 @@ const Contact = () => {
             <div className="col-md-5">
               <div className="left">
                 <div className="div2">
-                  <p className="para3">Contact Information</p>
-                  <p className="para4">
+                  <p className="para22">Contact Information</p>
+                  <p className="para21">
                     Fill up the form and our Team will get back to you within 24
                     hours
                   </p>

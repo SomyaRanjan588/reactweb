@@ -23,7 +23,7 @@
   text-align: center;
   padding-top: 50px;
 }
-.para1 {
+.para20 {
   font-size: 40px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +36,7 @@
 }
 .mycard {
   padding-top: 10px;
+  margin-top: 30px;
   position: relative;
   background: white;
   box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.2);
@@ -55,13 +56,13 @@
   border-radius: 15px;
   margin-bottom: px;
 }
-.para3 {
+.para22 {
   color: white;
   font-size: 30px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-.para4 {
+.para21 {
   color: white;
   font-family: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -224,4 +225,416 @@ textarea {
 .error {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid {
+  max-width: 900px;
+  height: 500px;
+  margin: auto;
+  padding-top: 50px;
+  left: 30%;
+}
+.mycard {
+  position: relative;
+  background: white;
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.row {
+  height: 100%;
+}
+.leftdiv {
+  background-color: #f7f9ff;
+  border-radius: 10px;
+  height: 100%;
+}
+.para1 {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.image {
+  padding-top: none;
+}
+.leftdiv2 {
+  padding-bottom: 50px;
+}
+.para2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.para3 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.rightdiv {
+  height: 100%;
+}
+.rightdiv1 {
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signin {
+  border: none;
+  background-color: white;
+  padding-left: 20px;
+  color: blue;
+}
+.para4 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(79, 106, 156);
+}
+.rightdiv2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.landroad {
+  background-color: rgb(135, 232, 235);
+  color: rgb(23, 177, 238);
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.span20 {
+  padding-left: 10px;
+}
+.rightdiv3 {
+  text-align: center;
+  padding-top: 30px;
+}
+.google {
+  background-color: #ea4436;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px -10px;
+}
+.span21 {
+  padding-right: 20px;
+}
+.facebook {
+  background-color: #4569b4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px -10px;
+}
+.rightdiv4 {
+  padding-top: 40px;
+  text-align: center;
+}
+.rightdiv5 {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.para10 {
+  padding-right: 220px;
+  text-align: center;
+}
+.para11 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.inputfield {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.button6 {
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 5px;
+  border: none;
+}
+.container1 {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+.btn {
+  border: 1px solid;
+  margin-top: 5px;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 150px;
+  font-weight: bold;
+}
+.btn20 {
+  border: 1px solid;
+  margin: 5px;
+}
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 10rem;
+  background-color: #f7f9ff;
+  display: grid;
+  grid-template-columns: 10rem 1fr 2fr 1fr 20rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+.menu-link {
+  grid-column: 3/5;
+}
+
+.menu-link ul {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  align-items: center;
+}
+.menu-link ul li {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.heart {
+  font-weight: bold;
+}
+
+/* responsive css style  */
+@media (max-width: 2000px) {
+  .main-nav {
+    height: 8rem;
+    grid-template-columns: 10rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu-link ul {
+    height: 8rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 8rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu-link ul {
+    height: 8rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 7rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+  .mobile-menu-link {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu-link {
+    background-color: white;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+  }
+  .mobile-menu-link ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 2rem;
+    margin-top: 20px;
+    position: fixed;
+    margin-left: 300px;
+  }
+}
+@media (max-width: 798px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    position: fixed;
+    margin-left: 300px;
+  }
+}
+@media (max-width: 520px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+  }
+
+  .logo ul {
+    height: 6rem;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    position: fixed;
+    margin-left: 300px;
+  }
+}
+
+/* Home page css  */
+.container-fluid10 {
+  background-color: #f7f9ff;
+  width: 100%;
+  height: 600px;
+  margin-top: none;
+  margin-bottom: 50px;
+  padding-bottom: none;
+  padding-top: 1px;
+}
+.homecard {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.leftone {
+  margin-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.leftpara1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+.leftpara2 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.leftspan {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+}
+.leftpara3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.leftspan2 {
+  font-weight: bold;
+}
+.leftpara4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.check {
+  margin-top: 25px;
+}
+.checkbtn {
+  color: white;
+  background-color: #2ed085;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 3px;
+}
+.PPC {
+  margin-top: 25px;
+}
+.leftpara5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.hrline {
+  border: 0.1px solid gray;
+  outline: none;
+  width: 59%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lastline {
+  margin-left: 25px;
+}
+.leftpara6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }

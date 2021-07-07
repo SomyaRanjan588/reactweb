@@ -39,15 +39,15 @@ const Login = () => {
                   <div className="rightdiv2">
                     <p>
                       <button className="landroad">Landroad</button>
-                      <span className="span1"> Tentant</span>
+                      <span className="span20"> Tentant</span>
                     </p>
                   </div>
                   <div className="rightdiv3">
                     <button className="google">
-                      <span className="span3">
+                      <span className="span21">
                         <ion-icon name="logo-google"></ion-icon>
                       </span>
-                      <span className="span2">Login in with Google+</span>
+                      <span className="span22">Login in with Google+</span>
                     </button>
                     <div className="rightdiv4">
                       <button className="facebook">
