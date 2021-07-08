@@ -4,7 +4,7 @@ import "./App.css";
 export default function Photos() {
   return (
     <div>
-      <img src="./mainpage/homepage.png" className="img-fluid" alt="" />
+      <img src="./reactweb/homepage.png" className="img-fluid" alt="" />
     </div>
   );
 }
